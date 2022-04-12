@@ -28,6 +28,6 @@ public class Login extends BasePage{
         typeIn(loginEmailField, username);
         typeIn(loginPasswordField, password);
         clickOnElement(loginButton);
-        return readElementsContent(labelMyAccount).equals(expectedLabelText);
+        return getTextFromElement(labelMyAccount).equals(expectedLabelText);
     }
 }

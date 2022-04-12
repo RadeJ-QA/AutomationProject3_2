@@ -16,6 +16,11 @@ public class RegisterTest extends BaseTest{
 
     @Test (groups = "basic")
     public void registerUserTest(){
-        Assert.assertTrue(register.registerUser());
+        register.goToRegisterPage()
+                .fillInAllDataToRegisterUser()
+                .clickOnContinueButton();
+        softAssert.assertTrue(register.isUserRegistered());
+        softAssert.assertTrue(register.isLogoutButtonPresent());
+        softAssert.assertAll();
     }
 }

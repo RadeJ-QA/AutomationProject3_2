@@ -10,11 +10,15 @@
        </groups>
        <classes>
            <class name="tests.BaseTest"/>
+           <class name="tests.RegisterWarningsTest">
+               <parameter name="warningColor" value="rgba(169, 68, 66, 1)"></parameter>
+           </class>
            <class name="tests.RegisterTest"/>
            <class name="tests.LoginTest">
                <parameter name="emailUsername" value="qa.tester999@test.com"></parameter>
                <parameter name="password" value="Srbija1."></parameter>
            </class>
+           <class name="tests.CartTest"/>
        </classes>
 
    </test>
@@ -28,11 +32,15 @@
         </groups>
         <classes>
             <class name="tests.BaseTest"/>
+            <class name="tests.RegisterWarningsTest">
+                <parameter name="warningColor" value="rgb(169, 68, 66)"></parameter>
+            </class>
             <class name="tests.RegisterTest"/>
             <class name="tests.LoginTest">
                 <parameter name="emailUsername" value="qa.tester999@test.com"></parameter>
                 <parameter name="password" value="Srbija1."></parameter>
             </class>
+            <class name="tests.CartTest"/>
         </classes>
     </test>
 
@@ -45,11 +53,15 @@
         </groups>
         <classes>
             <class name="tests.BaseTest"/>
+            <class name="tests.RegisterWarningsTest">
+                <parameter name="warningColor" value="rgba(169, 68, 66, 1)"></parameter>
+            </class>
             <class name="tests.RegisterTest"/>
             <class name="tests.LoginTest">
                 <parameter name="emailUsername" value="qa.tester999@test.com"></parameter>
                 <parameter name="password" value="Srbija1."></parameter>
             </class>
+            <class name="tests.CartTest"/>
         </classes>
     </test>
 
